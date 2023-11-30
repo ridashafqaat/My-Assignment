@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rida assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="first">
+        <h4 class="head-1"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAV1JREFUSEu91L8r7WEcwPHXKd3u4McgMopJsmAhpGzYZGAw3H/AIGx+rLcYTBbJYJEsMkkxWG6RK7NFFtlEqUt66nt0ejrnnnO+zvEdn+/zvN/P5/N5Pp+MKn+ZKvN9u+Ac/TlRvWICR2kjjSMIwB8R7DcWKyV4RGME28avSgku0B3BLtFTKcEOZiLYGxrwnEYS1yCkYisC/UUv/lVC0II71CSwG4zgIQ08nMnXB4cYxy36vgIvJBjCGZ7Qgfu0ty8kCOuhsUaxj8lqCNpxhVrMYT2t5H+zaBq7eMcU9vJIwmMInf9S6ALFht0yVhLJAtZyQE04Rheuk4jDJDjNnV3FBIG3hNUEfIBZhJl1ksDjy4d/P7OLpQjC3pCuTdQlryv0RahT0cyUKgigNmxgrISCf3LLEWS5A5hPnnG242PnlwRZWHMiGUYnWlGPPxgstwYlZCX/ljQpKktWdcEHXmI0GTfv/MwAAAAASUVORK5CYII=">
+            Us:+1514000 000</h4>
+        <div class="icons">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvt1DEOAUEUxvEfhWhFq1AplCpRqPTiAhTO4SYKLiBxCCcQncYNlKIhm5BsZJmxm+12ysnM+7/3fV9eTcmnVnJ9/wLqGKKHRqq5De5Zzf4D6GCPQUahFq5FAQeMvkhaGNDH6YdfhQEz7FKAG8Y4v+4SeR5FJJpjmypwQTcmgbEmlwaYYoX2R8dJJI+pCSZ5U7TEOiBFAmvm9SAG8NOPkAcxEiXxXXybMgR4/yvN5AoQva4rD4Jrq5IoKFHuB08HMTIZp8aBqQAAAABJRU5ErkJggg==">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvN1UuIjnEUx/HPuOSSWGDKZcPSymUhMWZDynbKFJISClGUhUuUoWwoGwoLVjNDdqKUa9laiQ0pIdm55JZLp/6Pnp487/N/3zHlrJ56zznfc87/nN/bZZSta5TzGwlgJdZjHt7hOobxIxU9FeMLwBbcxKuMjsbgLLb9xfchTmI1ooClBeApfmINXjZADuFYg897rMWnAvAFE/AaG3GnJsFkvMWUBsDz5NNfAKLquSkoOrmII3hTSdSD+xlj/Ih1uFEAzmF7JfAbrmAId/EBq3ArA3AK+8KvAET1jzCjJji6epYgizMAhzFQAMZiMM02uhiXkaDJZSsulDt4jAVNUW38Hiv6oAzYhEttJGjlGm81Hd/LgDiey9jwDyDX0FfkKUtFfO/GnnT+nbJ6y6tcBszCbcxG6EgnFnOP+f+xqtgdx4FOMuMrlqV1rwUE8Cj2Y2KboL04XY2pk+sYUzxUKOOkDFAowQ78ygGEkG1GXGN3RvITOFjnFx2swELMxBLEFjSpZeQLVd2Fq62KCEDcQD92YnlGxS9wHmcQqtnSqm8wP63ZIszBNHxO1T7BvbQlIX5ZNpL/5P8D8Bt40Eyk2s6U+gAAAABJRU5ErkJggg==">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg5JREFUSEvF1UuojVEUB/DfJa8JIUmJMDBCmKK8SZmQpBhIHhlLGZgoKQZMDEzEREq4Rog8YyLyKgMRE1KK8irP1m0d9v3u+c450c2anPOtvfb6r/Vfj92ln6Wrn/1rBTAYS7AcEzAGb/EEl3ABP9oF2AxgADZibzqt8/EUO3C2YnADcxu6KsBwnMbCdpHl+UdMx7PC/id/mCkBRmbqswrj77iJx3iZGc1H2ITzFbiGKVid9/bhSP4/1ACI34tYVDiP722V6BrH8xCRBh0hk7EJQe9ObEl9dwNgFU4Vzk9gA751SFVp1pSi81iaVrcQEQY9fyOXyxpGBtF+rzAwvS3OWvyN8z53AiCijUKFvMfomuiD5yhgKzmDoPe3BEBwfSw1DzCjxsNs3GkDcBjbqwDrcTyVjzDtHwCiPRsd1OMmMphTtNunpOhLE5CYk7KNS5MF2IoDOd29KBqF1xiU2nVVHtvQchDLMDVXzNEqRfHdjZV58Dwn9V0HbVRmH4tvHN40A4jWjMltyN3cpLE962Q8rmNSGsR2jUx6SbmLTmJNcfoCu5Our4V+KNZmy45NfQzlTDxsBTACV9KwtPuA+/icFMQ8DKs4itaMFu0j1XUdIOdy+DooQc/Ci+W2v8642YMTK2Mz9mTL1t29jV242iqSVk/mEETxo3ATEyw6JOiKV+xeJyn+10e/kwDb2vwC1tVeWnXS9msAAAAASUVORK5CYII=">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA1VJREFUSEutll2oFVUUx9fa44wQYQnJzVP40p49c+bhptyeivJcEbQPK/AW4Yv4IBJ+4FNFSREl9nxJohdRFBHLekjoi2jSJ5MLETrnzt4bfImu9hLkk2dm1op9OOc2Hu/HyG1gGJiz1/931tr/vdYgNLtEu90eK4pivVvu+/5ct9u9BQC0XDgutUAp9TwA7AKAZxHxz6qqnCh4njfGzC0AuISIZ/M8/24xnQUBYRhuRMRpZv6bmY8HQZBmWdariyRJEhDRJDPvZ+aHEPFgnue/j4LuAURR9BoRfYSIe7XWl5crgftdSrkZET8XQhzJ8/zLesxdACdeVdVbQRDsyLLsZhPx4Zp2u72+LMtvhBCf1CHzAFcWADjn+37nfsVHID8LIV4flmseoJS6BADvjZRFTExMeDMzM0XTbOI47lRV9YExZtLF9AEDt+zTWr9aExJSyt8Q8TFmftJa+0dTiFLKlerT2dnZ7/uAMAzPAMApY8yPQxHnkqIo5hDxYSIat9Zevw+As/cbWuvdDuCFYWh9349GrSilfBwA1lhrs6biA1etRsRZY8wTGEVRi5m/0Fo/UxdRSsUAcNK9I6LDQoi1zOzsewIANjCzM8UNZj66UPmUUleKonjZAZ4CgHfyPJ+qA9x7Zr7a3yhEl/IjzHyamQtE9IdrmfknY8zW0QyVUl8R0ccYx/EEEb2rtd7ZEDBXluWmIAieY+bzzNwzxqweBUgpv0bED9EdECK6kOf5000ARPSttfYFKeU6IcRfLqbVavlpmpb1+DAMfyWilxbd5MVKBAAXtdY7kiR5sCzL2wsBpJT/bfLgHJwWQpxxvh3+i5UAwjB8ERGntNZ7+ucgiqLtRPSmMeaV/wOglLpIRNPW2h/mW0UURSkRvW+McS2jf3U6nVXumaZpBQDc5CxEUbSFmY9orbfMt4pBFuNEdH6lza4oitT3/Z3dbvfaXYABZKqqqrdX0q4B4Jgx5sIw24UGzpQ7IMy8z1r7S8OyTBLRZ64b18XvyaC2weMAMA0A/yDi8bIsU2vtnTrMWdHzPDcyDwDAA57nHRqWpb5uyaEfx/E2InJDfzMAuAk3nHKPAoC7nTHOOrcslumSgFoQJkky1uv1+p8tQRDMZVnmvjCWdda/xMToYr3x90sAAAAASUVORK5CYII=">
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand voo" href="#">Charity</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item extra">
+                        <a class="nav-link active" aria-current="page" href="#">Foundation</a>
+                    </li>
+                    <ul class="navbar-nav me-5 me-auto mb-2 mb-lg-0 nav-extra">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Causes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">STAFF</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> CONTACT US</a>
+                        </li>
+
+
+                        <form class="d-flex" role="search">
+                            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide ">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/hd.jpg" class="d-block w-100 carousal-height" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/hd5.webp" class="d-block w-100  carousal-height" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/hg6.webp" class="d-block w-100  carousal-height" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="boxf">
+        <h5>WE CAN CHANGE IT TOGETHER LRTS DO IT NOW</h5>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illum perferendis similique ratione ipsam incidunt.</P>
+        <button class="btn btnn btn-outline-success" type="submit">Search</button>
+    </div>
+
+
+
+    <div class="main_form ">
+        <!-- <div class="text text-center fw-bold dispay-2">CONTACT US</div> -->
+        <form action="#" class="form" id="myForm">
+            <div class="text text-center fw-bold dispay-2">CONTACT <span class="fos">US</span> </div><br>
+            <div class="user_details">
+                <div class="input-box">
+                    <span class="details">Your Name:</span>
+                    <input type="text" id="my_name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name:</span>
+                    <input type="text" id="my_in" placeholder="Enter Last Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Your Email:</span>
+                    <input type="text" id="my_email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Your Password:</span>
+                    <input type="text" id="my_password" placeholder="Enter Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password:</span>
+                    <input type="text" id="my_confirm" placeholder="Confirm Password" required>
+                </div>
+                <!-- <div class="input-box">
+                    <span class="details">Your Email:</span>
+                    <input type="text" id="my_email" placeholder="Enter Your Email" required>
+                </div> -->
+                <div class="input-box">
+                    <span class="details">Number:</span>
+                    <input type="text" id="my_number" placeholder="Enter Your Number" required>
+                </div>
+                <!-- <div class="input-box">
+                    <span class="details">Your Password:</span>
+                    <input type="text" id="my_confirm" placeholder="Enter Password" required>
+                </div> -->
+                <!-- <div class="input-box">
+                    <span class="details">Your Password:</span>
+                    <input type="text" id="my_in" placeholder="Enter Password" required>
+                </div> -->
+
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <span class="gender-title">Gender</span>
+                <div class="catagory">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" id="submit" class="button-5" onclick="display()" onclick="validation()"
+                    value="Submit">
+            </div>
+        </form>
+    </div><br><br>
+
+    <div class="last-1">
+        <h3>FEATURED CAUSES</h3><br>
+    </div>
+    <div class=" gallery-wrap">
+        <img src="images/caret-back-circle.svg" id="backBtn">
+        <div class="gallery">
+            <div>
+                <span><img src="images/22.jpg"></span>
+                <span><img src="images/33.jpg"></span>
+                <span><img src="images/77.jpg"></span>
+            </div>
+            <div>
+                <!-- <span><img src="pic/22.jpg"></span> -->
+                <!-- <span><img src="pic/33.jpg"></span> -->
+                <!-- <span><img src="pic/77.jpg"></span> -->
+                <span><img src="images/55.jpg"></span>
+                <span><img src="images/wp5838362.jpg"></span>
+                <span><img src="images/66.jpg"></span>
+                <!-- <span><img src="pic/55.jpg"></span> -->
+                <!-- <span><img src="pic/wp5838362.jpg"></span> -->
+                <!-- <span><img src="pic/66.jpg"></span> -->
+            </div>
+        </div>
+        <img src="images/caret-forward-circle.svg" id="nextBtn">
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="practice.js"></script>
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+
+</body>
+
+</html>
