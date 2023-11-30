@@ -7,9 +7,10 @@
     <title>rida assignment</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -25,9 +26,9 @@
             <img
                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvN1UuIjnEUx/HPuOSSWGDKZcPSymUhMWZDynbKFJISClGUhUuUoWwoGwoLVjNDdqKUa9laiQ0pIdm55JZLp/6Pnp487/N/3zHlrJ56zznfc87/nN/bZZSta5TzGwlgJdZjHt7hOobxIxU9FeMLwBbcxKuMjsbgLLb9xfchTmI1ooClBeApfmINXjZADuFYg897rMWnAvAFE/AaG3GnJsFkvMWUBsDz5NNfAKLquSkoOrmII3hTSdSD+xlj/Ih1uFEAzmF7JfAbrmAId/EBq3ArA3AK+8KvAET1jzCjJji6epYgizMAhzFQAMZiMM02uhiXkaDJZSsulDt4jAVNUW38Hiv6oAzYhEttJGjlGm81Hd/LgDiey9jwDyDX0FfkKUtFfO/GnnT+nbJ6y6tcBszCbcxG6EgnFnOP+f+xqtgdx4FOMuMrlqV1rwUE8Cj2Y2KboL04XY2pk+sYUzxUKOOkDFAowQ78ygGEkG1GXGN3RvITOFjnFx2swELMxBLEFjSpZeQLVd2Fq62KCEDcQD92YnlGxS9wHmcQqtnSqm8wP63ZIszBNHxO1T7BvbQlIX5ZNpL/5P8D8Bt40Eyk2s6U+gAAAABJRU5ErkJggg==">
             <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg5JREFUSEvF1UuojVEUB/DfJa8JIUmJMDBCmKK8SZmQpBhIHhlLGZgoKQZMDEzEREq4Rog8YyLyKgMRE1KK8irP1m0d9v3u+c450c2anPOtvfb6r/Vfj92ln6Wrn/1rBTAYS7AcEzAGb/EEl3ABP9oF2AxgADZibzqt8/EUO3C2YnADcxu6KsBwnMbCdpHl+UdMx7PC/id/mCkBRmbqswrj77iJx3iZGc1H2ITzFbiGKVid9/bhSP4/1ACI34tYVDiP722V6BrH8xCRBh0hk7EJQe9ObEl9dwNgFU4Vzk9gA751SFVp1pSi81iaVrcQEQY9fyOXyxpGBtF+rzAwvS3OWvyN8z53AiCijUKFvMfomuiD5yhgKzmDoPe3BEBwfSw1DzCjxsNs3GkDcBjbqwDrcTyVjzDtHwCiPRsd1OMmMphTtNunpOhLE5CYk7KNS5MF2IoDOd29KBqF1xiU2nVVHtvQchDLMDVXzNEqRfHdjZV58Dwn9V0HbVRmH4tvHN40A4jWjMltyN3cpLE962Q8rmNSGsR2jUx6SbmLTmJNcfoCu5Our4V+KNZmy45NfQzlTDxsBTACV9KwtPuA+/icFMQ8DKs4itaMFu0j1XUdIOdy+DooQc/Ci+W2v8642YMTK2Mz9mTL1t29jV242iqSVk/mEETxo3ATEyw6JOiKV+xeJyn+10e/kwDb2vwC1tVeWnXS9msAAAAASUVORK5CYII=">
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg5JREFUSEvF1UuojVEUB/DfJa8JIUmJMDBCmKK8SZmQpBhIHhlLGZgoKQZMDEzEREq4Rog8YyLyKgMRE1KK8irP1m0d9v3u+c450c2anPOtvfb6r/Vfj92ln6Wrn/1rBTAYS7AcEzAGb/EEl3ABP9oF2AxgADZibzqt8/EUO3C2YnADcxu6KsBwnMbCdpHl+UdMx7PC/id/mCkBRmbqswrj77iJx3iZGc1H2ITzFbiGKVid9/bhSP4/1ACI34tYVDiP722V6BrH8xCRBh0hk7EJQe9ObEl9dwNgFU4Vzk9gA751SFVp1pSi81iaVrcQEQY9fyOXyxpGBtF+rzAwvS3OWvyN8z53AiCijUKFvMfomuiD5yhgKzmDoPe3BEBwfSw1DzCjxsNs3GkDcBjbqwDrcTyVjzDtHwCiPRsd1OMmMphTtNunpOhLE5CYk7KNS5MF2IoDOd29KBqF1xiU2nVVHtvQchDLMDVXzNEqRfHdjZV58Dwn9V0HbVRmH4tvHN40A4jWjMltyN3cpLE962Q8rmNSGsR2jUx6SbmLTmJNcfoCu5Our4V+KNZmy45NfQzlTDxsBTACV9KwtPuA+/icFMQ8DKs4itaMFu0j1XUdIOdy+DooQc/Ci+W2v8642YMTK2Mz9mTL1t29jV242iqSVk/mEETxo3ATEyw6JOiKV+xeJyn+10e/kwDb2vwC1tVeWnXS9msAAAAASUVORK5CYII= ">
             <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA1VJREFUSEutll2oFVUUx9fa44wQYQnJzVP40p49c+bhptyeivJcEbQPK/AW4Yv4IBJ+4FNFSREl9nxJohdRFBHLekjoi2jSJ5MLETrnzt4bfImu9hLkk2dm1op9OOc2Hu/HyG1gGJiz1/931tr/vdYgNLtEu90eK4pivVvu+/5ct9u9BQC0XDgutUAp9TwA7AKAZxHxz6qqnCh4njfGzC0AuISIZ/M8/24xnQUBYRhuRMRpZv6bmY8HQZBmWdariyRJEhDRJDPvZ+aHEPFgnue/j4LuAURR9BoRfYSIe7XWl5crgftdSrkZET8XQhzJ8/zLesxdACdeVdVbQRDsyLLsZhPx4Zp2u72+LMtvhBCf1CHzAFcWADjn+37nfsVHID8LIV4flmseoJS6BADvjZRFTExMeDMzM0XTbOI47lRV9YExZtLF9AEDt+zTWr9aExJSyt8Q8TFmftJa+0dTiFLKlerT2dnZ7/uAMAzPAMApY8yPQxHnkqIo5hDxYSIat9Zevw+As/cbWuvdDuCFYWh9349GrSilfBwA1lhrs6biA1etRsRZY8wTGEVRi5m/0Fo/UxdRSsUAcNK9I6LDQoi1zOzsewIANjCzM8UNZj66UPmUUleKonjZAZ4CgHfyPJ+qA9x7Zr7a3yhEl/IjzHyamQtE9IdrmfknY8zW0QyVUl8R0ccYx/EEEb2rtd7ZEDBXluWmIAieY+bzzNwzxqweBUgpv0bED9EdECK6kOf5000ARPSttfYFKeU6IcRfLqbVavlpmpb1+DAMfyWilxbd5MVKBAAXtdY7kiR5sCzL2wsBpJT/bfLgHJwWQpxxvh3+i5UAwjB8ERGntNZ7+ucgiqLtRPSmMeaV/wOglLpIRNPW2h/mW0UURSkRvW+McS2jf3U6nVXumaZpBQDc5CxEUbSFmY9orbfMt4pBFuNEdH6lza4oitT3/Z3dbvfaXYABZKqqqrdX0q4B4Jgx5sIw24UGzpQ7IMy8z1r7S8OyTBLRZ64b18XvyaC2weMAMA0A/yDi8bIsU2vtnTrMWdHzPDcyDwDAA57nHRqWpb5uyaEfx/E2InJDfzMAuAk3nHKPAoC7nTHOOrcslumSgFoQJkky1uv1+p8tQRDMZVnmvjCWdda/xMToYr3x90sAAAAASUVORK5CYII=">
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdJJREFUSEvllj+MTUEUxr/vvGzxVkT8ae5kQoiW5sk2RJAsjZJGo5aI0NAoNqGiQLQKzSo0Gp0VjUaoKFciWe+debEbhMSfwjkym7nC5r2Nve5WTjGT3Jn5fmfOnJlziWIhhEkR2WNmG+tvTXoR+Wxmr1T1S17P3FRVdQzALMmtTURHrFkCcEpVHzF77u4LLYrXvCUR2c4Y45SZPWvJ8z9kzGwqAw6Z2ZP1AIjI4ZEAd/9O8haASQBnAHSaODAWAOCaql7KoiGEuwBOtw24rarnSobdJ3mybcAPd58F0CV5ok7ntUJWO4O3JN/VdzBfFXefJ/nJzDaJyG4z006n897ddwLYMAq+GuBCSulmCdEVkpcBTKvqXFVVB0VkYjAYPM7jvV5vYjgcXnT3qyshjQDjwhRCeApg/+/jjQEhhAcAjgKYUdXrK3b6i9EIEGPM8Z8vKm9UdVcBnCd54593UFVVj+SLLOTuH1JKW9oG7CP5vAA+ppQ2/4cAAA8B5LTLlrPlCIA7AF4DiADOlhB9IzlT5h0AcPyvDnmtT8K4+XWarnvB6ZrZAoBtbXledBZFZMdy0Q8hTAO41yJksRT9uWVAthhjF8DeNn5bALzs9/tfs+5PWAlVHHsh5agAAAAASUVORK5CYII=">
         </div>
     </div>
 
@@ -46,26 +47,26 @@
                     </li>
                     <ul class="navbar-nav me-5 me-auto mb-2 mb-lg-0 nav-extra">
                         <li class="nav-item ">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link active" aria-current="page" href="#">About Us&nbsp;</a>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Causes</a>
+                            <a class="nav-link active" aria-current="page" href="#">Causes&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">EVENTS</a>
+                            <a class="nav-link active" aria-current="page" href="#">EVENTS&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                            <a class="nav-link active" aria-current="page" href="#">BLOG&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">STAFF</a>
+                            <a class="nav-link active" aria-current="page" href="#">STAFF&nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> CONTACT US</a>
+                            <a class="nav-link active" aria-current="page" href="#"> CONTACT US&nbsp;</a>
                         </li>
 
 
@@ -174,7 +175,8 @@
 
     <div class="last-1">
         <h3>FEATURED CAUSES</h3><br>
-    </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, molestias architecto deleniti amet dicta nihil in.</p>
+    </div><br><br>
     <div class=" gallery-wrap">
         <img src="images/caret-back-circle.svg" id="backBtn">
         <div class="gallery">
@@ -203,12 +205,93 @@
 
 
 
+    <footer>
+        <div class="row-container ">
+          <div class="footer-one ">
+            <a class="navbar-brand" href="#">
+                <h1>CHARITY</h1>
+              <!-- <img class=" fff starting-logo default-logo" alt="Imtiaz"
+                src="https://imtiaz.com.pk/wp-content/uploads/2021/02/imtiaz-3.png"
+                srcset="https://imtiaz.com.pk/wp-content/uploads/2021/02/imtiaz-3.png 1x, https://imtiaz.com.pk/wp-content/uploads/2021/02/imtiazwhite-3.png 2x"> -->
+            </a>
+          </div>
+          <div class="footer-one ">
+            <h5 class="pb-2">ABOUT</h5>
+            <p class="footer-para">Since 1955, Charity has been providing its customers with a unique shopping experience,
+              especially in Karachi; one of the biggest metropolitan cities of Pakistan. Imtiaz is one of a kind, modern
+              retail departmental store offering a wide range of good quality products at economical rates for its
+              customers.</p>
+          </div>
+          <div class="footer-one ">
+            <h5 class="pb-2">Contact Us</h5>
+            <div>
+              <p><sub>7</sub>th Floor, Prestige Trade Center, Main Shaheed-e-Millat Road, Karachi, Pakistan.</p>
+            </div>
+            <div>
+              <p>021-111-468-429 (CHAR-ITY)</p>
+            </div>
+            <div>
+              <p>hello@charity.com.pk</p>
+            </div>
+          </div>
+          <div class="footer-one ">
+            <h5 class="pb-2">Featured</h5>
+            <ul class="pom">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Potential</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Loyalty Program</a></li>
+              <li><a href="#">Gift Card</a></li>
+              <li><a href="#">Home Delivery</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Return Policies</a></li>
+            </ul>
+          </div>
+    
+        </div>
+        <div class=" last-cont copyright mt-1">
+          <div class="row container mx-autp">
+            <div class=" copyright col-lg-4 col-md-6 col-12 ml-auto mb-6 pl-4">
+              <p>&#169 2023 Charity.</p>
+            </div>
+            <div class=" menu col-lg-4 col-md-6 col-12 pl-4">
+              <li style="--i:1;--clr:#ff0000;">
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+              </li>
+              <li style="--i:2;--clr:#1877f2;">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li style="--i:3;--clr:#ea4d89;">
+                <a href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+              </li>
+              <li style="--i:4;--clr:#25d366;">
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+              </li>
+              <div class="toggle">
+                <ion-icon name="share-social"></ion-icon>
+                <ion-icon name="close-outline"></ion-icon>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </footer>
+    
+    
+
+
+
+
+
+
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="practice.js"></script>
     <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
 
 </body>
 
