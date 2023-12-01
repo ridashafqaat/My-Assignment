@@ -282,6 +282,7 @@ form .button input:hover{
     align-items: center;
     justify-content: center;
     margin: 10% auto;
+    margin-top: 90px;
 }
 #backBtn,
 #nextBtn{
@@ -329,7 +330,9 @@ footer{
     height: 400px;
     padding-top: 40px !important;
 }
-
+footer h1{
+    color: black;
+}
 footer h5{
     color: #141313 !important;
     font-weight: 700 !important;
@@ -502,5 +505,48 @@ footer .menu{
         text-align: center;
         margin-top: 10px;
     }
+    footer h1{
+        /* background-color: #71b7e6; */
+        margin-left: 20px;
+        height: 300px;
+        width: 50px;
+        color: rgb(90, 18, 18);
+    }
+    .footer-para-one{
+        position: absolute;
+        left: 40px;
+        /* background-color: #71b7e6; */
+        width: 220px;
+    }
+    .footer-para-two{
+        /* background-color: #71b7e6; */
+        position: absolute;
+        left: 330px;
+        height: 330px;
+        top: 40px;
+        width: 170px;
+    }
+    .footer-para-three{
+        /* background-color: #71b7e6; */
+        position: absolute;
+        left: 500px;
+        height: 390px;
+        top: 40px;
+        width: 100px;
+    }
+    .footer-para-three h5{
+        position: absolute;
+        left: 30px;
+    }
+    .footer-para-three .pom{
+        margin-top: 40px;
+    }
+    .last-cont{
+        margin-top: 70px !important;
+        position: absolute;
+        top: 76%;
+        width: 100%;
+    }
+
     
 }
