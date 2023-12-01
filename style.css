@@ -70,7 +70,7 @@
     width: 400px;
     position: absolute;
     top: 260px;
-    left: 700px;
+    left: 740px;
 }
 .boxf h5{
     padding-left: 15px;
@@ -476,10 +476,11 @@ footer .menu{
 }
 .gif img{
     height: 300px;
-    width: 380px;
+    width: 400px;
     position: absolute;
-    left: 210px;
-    bottom: 5px;
+    left: 250px;
+    top: -30px;
+    /* bottom: 2px !important; */
 
 }
 
@@ -555,6 +556,15 @@ footer .menu{
         top: 76%;
         width: 100%;
     }
+    .gif img{
+    height: 300px;
+    width: 380px;
+    position: absolute;
+    left: 210px;
+    bottom: 5px;
+
+}
+
 
     
 }
