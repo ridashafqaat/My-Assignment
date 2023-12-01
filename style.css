@@ -34,6 +34,7 @@
     /* position:sticky !important; */
     /* margin-top: 50px !important; */
     height: 70px !important;
+    /* width: 100% !important; */
 }
 
 .navbar li a:hover {
@@ -76,7 +77,9 @@
 }
 
 .boxf {
-    background-color: rgb(216, 46, 145);
+    /* background-color: rgb(216, 46, 145); */
+    background-color: #ffffff10;
+    backdrop-filter: blur(15px);
     height: 260px;
     width: 400px;
     position: absolute;
@@ -541,6 +544,8 @@ footer .menu {
     .boxf {
         height: 245px;
         width: 250px;
+        background-color: #ffffff10;
+        backdrop-filter: blur(15px);
         position: absolute;
         top: 260px;
         left: 390px;
@@ -628,4 +633,21 @@ footer .menu {
         bottom: 5px; */
     }
 
+}
+@media (max-width:1024px){
+    .extra {
+        margin-right: 150px;
+    }
+    .boxf {
+        height: 299px;
+        width: 260px;
+        background-color: #ffffff10;
+        backdrop-filter: blur(15px);
+        position: absolute;
+        top: 260px;
+        left: 590px;
+    }
+
+
+    
 }
