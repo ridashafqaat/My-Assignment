@@ -32,6 +32,10 @@
     /* margin-top: 50px !important; */
     height: 70px !important;
 }
+.navbar li a:hover{
+    color: #9b59b6 !important;
+
+}
 .nav-extra{
     margin-right: 50px;
 }
