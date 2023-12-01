@@ -32,10 +32,11 @@
     /* margin-top: 50px !important; */
     height: 70px !important;
 }
-.navbar li a:hover,
-.navbar li a.active{
-    color: #381d7e !important;
-
+.navbar li a:hover{
+    color: rgb(216, 46, 145) !important;
+}
+.navbar li a{
+    color: black !important;
 }
 .nav-extra{
     margin-right: 50px;
