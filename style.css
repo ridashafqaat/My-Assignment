@@ -32,8 +32,9 @@
     /* margin-top: 50px !important; */
     height: 70px !important;
 }
-.navbar li a:hover{
-    color: #9b59b6 !important;
+.navbar li a:hover,
+.navbar li a.active{
+    color: #381d7e !important;
 
 }
 .nav-extra{
