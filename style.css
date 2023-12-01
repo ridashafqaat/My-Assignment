@@ -70,7 +70,7 @@
     width: 400px;
     position: absolute;
     top: 260px;
-    left: 690px;
+    left: 700px;
 }
 .boxf h5{
     padding-left: 15px;
@@ -86,15 +86,12 @@
 }
 .btnn{
     margin-left: 15px !important;
-    margin-top: 20px !important;
+    margin-top: 15px !important;
     margin-right: 15px !important;
     width: 180px !important ;
     color: #fff !important;
     border: 1px solid wheat !important;
 }
-
-
-
 
 
   /* form */
@@ -103,7 +100,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     padding: 10px;
     background: linear-gradient(135deg, rgb(25, 224, 191), rgb(228, 107, 163));
     margin-top: 10px;
@@ -473,4 +470,37 @@ footer .menu{
     color: #fff !important;
     transform: rotate(calc(360deg / -4 * var(--i)));
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width:768px){
+    .boxf{
+        height: 245px;
+        width: 250px;
+        position: absolute;
+        top: 260px;
+        left: 390px;
+    }
+    .boxf h5{
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-right: 15px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .boxf p{
+        padding-left: 15px;
+        padding-top: 10px !important;
+        padding-right: 5px;
+        color: #fff;
+        font-size: 15px;
+    }
+    .last-1{
+        width: 500px;
+        position: absolute;
+        left: 100px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
 }
