@@ -474,6 +474,14 @@ footer .menu{
     transform: rotate(calc(360deg / -4 * var(--i)));
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
 }
+.gif img{
+    height: 300px;
+    width: 380px;
+    position: absolute;
+    left: 210px;
+    bottom: 5px;
+
+}
 
 
 @media (max-width:768px){
